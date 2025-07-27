@@ -1,0 +1,75 @@
+.primary{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.affirmations{
+    padding-bottom: 10px;
+    color: rgb(253, 71, 132);
+    border-bottom: 3px dashed rgb(255, 211, 226) ;
+}
+
+.left-side{
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+    color: palevioletred;
+    font-size:  18px;
+}
+
+.facts{
+    display: flex;
+}
+
+.facts i{
+    font-size: 20px;
+}
+
+.life-timer{
+    display: flex;
+    gap: 10px;
+}
+
+.lifetime{
+    display: inline-block;
+    font-family: 'Jersey 25', cursive;
+    font-size: 50px;
+    background-color: pink;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(242, 44, 77);
+    transition: all 0.3s ease;
+}
+
+.lifetime:hover{
+    background-color: white;
+    border: 3px solid pink;
+    transform: rotate(10deg);
+    
+}
+
+#hours:hover, #seconds:hover{
+    transform: rotate(-10deg);
+}
+
+h1{
+    font-size: 40px;
+    color: rgb(254, 32, 69);
+}
+
+.primary img{
+    position: relative;
+    animation: goyangKananKiri 2s infinite alternate ease-in-out;
+}
+
+.plane{
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    position: relative;
+    animation: goyangKananKiri 2s infinite alternate ease-in-out;
+}

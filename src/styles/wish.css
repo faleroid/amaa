@@ -1,0 +1,37 @@
+.wish-container{
+    height: fit-content;
+    padding-bottom: 180px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;    /* posisi horizontal antar kolom */
+    align-items: center;        /* posisikan item di tengah secara vertikal */
+    justify-items: center; 
+    row-gap: 10px;
+}
+
+.wish{
+    font-size: 20px;
+    background-color: rgb(248, 243, 184);
+    color: rgb(104, 99, 25);
+    padding: 20px;
+    max-width: 250px;
+    height: fit-content;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.one, .four{
+    transform: rotate(5deg);
+}
+
+.one:hover, .four:hover{
+    transform: rotate(-5deg);
+}
+
+.two, .three{
+    transform: rotate(-5deg);
+}
+
+.two:hover, .three:hover{
+    transform: rotate(5deg);
+}
+

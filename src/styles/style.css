@@ -1,0 +1,68 @@
+@keyframes goyangKananKiri {
+  0% {
+    rotate: 10deg;
+  }
+  100% {
+    rotate: -10deg; /* geser sejauh 30px ke kanan */
+  }
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    position: sticky; /* opsional: biar nempel di atas saat scroll */
+    top: 0;
+    z-index: 100;
+}
+
+nav{
+    padding: 20px;
+    background-color: white; /* atau warna lain */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* arah bayangan, blur, dan transparansi */
+}
+
+nav ul{
+    display: flex;
+    font-size: 1rem;
+    gap: 80px;
+    justify-content: center;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: palevioletred;
+    border: none;
+}
+
+nav a:hover{
+    color: rgb(243, 82, 136);
+    font-weight: 600;
+    font-size: 17px;
+}
+
+main{
+    padding: 10px 80px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    justify-content: center;
+    color: gray;
+}
+
+
+
