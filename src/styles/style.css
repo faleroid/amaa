@@ -21,10 +21,12 @@ header{
     position: sticky; /* opsional: biar nempel di atas saat scroll */
     top: 0;
     z-index: 100;
+    width: 100%;
 }
 
 nav{
     padding: 20px;
+    width: 100%;
     background-color: white; /* atau warna lain */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* arah bayangan, blur, dan transparansi */
 }
@@ -62,6 +64,17 @@ footer{
     height: 10vh;
     justify-content: center;
     color: gray;
+}
+
+@media screen and (max-width: 600px){
+    footer{
+        width: 100%;
+        font-size: 12px;
+    }
+
+    main{
+        padding: 15px;
+    }
 }
 
 
