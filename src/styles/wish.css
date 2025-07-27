@@ -45,5 +45,13 @@
     .wish{
         font-size: 12px;
     }
+
+    .plane{
+        padding-top: 0;
+    }
+
+    .plane img{
+        width: 80px;
+    }
 }
 

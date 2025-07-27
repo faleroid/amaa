@@ -84,13 +84,13 @@ h1{
     }
 
     .primary{
-        padding-top: 50px;
+        padding: 50px 20px 10px 20px;
         display: flex;
         flex-flow: column;
     }
 
     .primary img{
-        padding: 30px;
+        padding-top: 30px;
         width: 250px;
     }
 
@@ -99,6 +99,6 @@ h1{
     }
 
     .lifetime{
-        font-size: 20px;
+        font-size: 25px;
     }
 }

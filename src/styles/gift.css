@@ -9,8 +9,12 @@
 
 @media screen and (max-width: 600px){
     .gift-container img{
-        padding-top: 100px;
+        padding-top: 5px;
         width: 200px;
+    }
+
+    .gift-container h2{
+        text-align: center;
     }
 
     .gift-container p{
