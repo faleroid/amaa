@@ -57,7 +57,12 @@ font-size: 14px;
 
 @media screen and (max-width: 600px){
     .login-card{
-        width: 70%;
+        width: 230px;
         font-size: 14px;
+        padding: 10px 25px;
+    }
+
+    .login-card input{
+        width: 207px;
     }
 }
